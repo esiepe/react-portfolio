@@ -25,3 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.input {
+  @apply h-[60px] outline-none pl-6 w-full text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-teal-600 bg-gray-100 dark:bg-gray-800;
+}
+
+.textarea {
+  @apply resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-teal-600 bg-gray-100 dark:bg-gray-800;
+}
+.button {
+  @apply hover:outline hover:outline-1 hover:outline-teal-600 hover:bg-gradient-to-r hover:from-white hover:to-white dark:hover:bg-gradient-to-r dark:hover:from-gray-900 dark:hover:to-gray-900 hover:text-teal-600 duration-300;
+}
+
